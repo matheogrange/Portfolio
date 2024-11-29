@@ -6,21 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
   <link rel="stylesheet" href="stylesheet/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bacasime+Antique&display=swap" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bacasime+Antique&display=swap');
+  </style>
 </head>
 
 <body>
   <header>
-    <a href="#" id="openBtn">
-      <span class="burger-icon">
-        <span></span>
-        <span></span>
-        <span></span>
-      </span>
-    </a>
+    <img id="openBtn" src="images/icons8-menu-50.png" onclick="openCloseNav()">
   </header>
+
   <nav class="side-nav">
     <div id="mySidenav" class="sidenav">
-      <a id="closeBtn" href="#" class="close">×</a>
+      <a id="closeBtn" href="#" onclick="openCloseNav()">×</a>
       <ul>
         <li><a href="#">Acceuil</a></li>
         <li><a href="#">PPE</a></li>
@@ -33,7 +34,17 @@
   </nav>
 
   <main>
-    <div id="background"></div>
+
+    <div id="SD" class="bacasime-antique-regular">
+      <p>SAINT-<br>DENIS</p>
+    </div>
+    <div id="pfp"></div>
+
+    <div id="background">
+      <h1 id="BTS" class="archivo-black-regular">BTS SIO</h1>
+    </div>
+    
+
   </main>
   <footer>
 
