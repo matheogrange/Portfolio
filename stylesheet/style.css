@@ -28,10 +28,12 @@
     transition: 0.3s;
 }
   
-.sidenav a:hover {
+.sidenav a:hover,#closeBtn:hover {
     color: #111;
 }
-  
+#closeBtn{
+    transition: 0.3s;
+}
 .sidenav ul {
     list-style-type: none;
     padding: 0;
@@ -51,10 +53,13 @@ header{
 }
 main{
     width: 100%;
-    height: 1200px;
+    height: 100vh;
 }
 #openBtn{
     z-index: 500;
+}
+#openBtn:hover{
+    background-color: grey;
 }
 #SD{
     position: absolute;
@@ -62,11 +67,7 @@ main{
     margin-left: 50px;
     margin-bottom: 100%;
 }
-.bacasime-antique-regular {
-    font-family: "Bacasime Antique", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+
 
 #BTS{
     position: absolute;
@@ -84,15 +85,30 @@ main{
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    margin-left: 43.5%;
+    margin-left: 42%;
     margin-top: 16%;
     z-index: 1;
     
+}
+#matheo{
+    font-size: 165px;
+    position: absolute;
+    margin-top: 75vh;
+}
+#grange{
+    font-size: 165px;
+    position: absolute;
+    margin-top: 75vh;
+    margin-left: 40px;
 }
 .archivo-black-regular {
     font-family: "Archivo Black", serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
+}
+.bacasime-antique-regular {
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+}
   
