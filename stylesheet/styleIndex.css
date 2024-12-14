@@ -79,14 +79,15 @@ main{
     margin-left: 25%;
     margin-right: 15%;
 }
+/* 250px */
 #pfp{
     position: absolute;
     background-color: black;
-    width: 250px;
-    height: 250px;
+    width: 12.5%;
+    height: 25%;
     border-radius: 50%;
-    margin-left: 42%;
-    margin-top: 16%;
+    margin-left: 43.75%;
+    margin-top: 15%;
     z-index: 1;
     
 }
