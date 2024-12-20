@@ -23,7 +23,7 @@
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: grey;
     display: block;
     transition: 0.3s;
 }
@@ -57,9 +57,10 @@ main{
 }
 #openBtn{
     z-index: 500;
+    border-radius: 5px;
 }
 #openBtn:hover{
-    background-color: grey;
+    background-color: #76CCC8;
 }
 #SD{
     position: absolute;

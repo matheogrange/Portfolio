@@ -52,25 +52,78 @@
 }
 #openBtn{
     z-index: 500;
+    border-radius: 5px;
 }
 #openBtn:hover{
-    background-color: grey;
+    background-color: #76CCC8;
 }
 #Projetppe{
     text-align: center;
     font-size: 3vw;
 }
 #projet1{
-    border: 15px solid grey;
+    border: 15px solid #76CCC8;
     height: 15%;
     width: 30%;
     border-radius: 15px;
     position: relative;
     margin-left: 35%;
 }
-
+#projet1:hover{
+    border: 15px solid gray;
+}
 #pj1_text{
     font-size: 30px;
     font-weight: bold;
     text-align: center;
+}
+#cahier_des_charges{
+    text-align: center;
+    background-color: #76CCC8;
+    position: absolute;
+    width: 500px;
+    border-radius: 15px;
+    margin-left: 34%;
+    display: none;
+}
+#imgfleche{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    background-color: #76CCC8;
+    padding: 5px;
+    border-radius: 15px; 
+    margin-left: 48%;
+    transition: all 0.3s;
+    display: none;
+    transform: 0.3 ease;
+    rotate: 0deg;
+}
+#imgfleche:hover{
+    background-color: #818181;
+}
+#imagesppe1{
+    background-color: #76CCC8;
+    border-radius: 15px;
+    padding: 7px;
+    height: 250px;
+    width: 500px;
+    position: relative;
+    /* top: 90px; */
+    left: 785px;
+    z-index: -9;
+    display: none;
+    
+}
+#imagesppe2{
+    background-color: #76CCC8;
+    border-radius: 15px;
+    padding: 7px;
+    height: 250px;
+    width: 500px;
+    position: relative;
+    /* top: 90px; */
+    right: 300px;
+    z-index: -9;
+    display: none;
 }
