@@ -57,73 +57,33 @@
 #openBtn:hover{
     background-color: #76CCC8;
 }
-#Projetppe{
+
+
+
+#stage{
     text-align: center;
     font-size: 3vw;
 }
-#projet1{
-    border: 15px solid #76CCC8;
-    height: 15%;
-    width: 30%;
-    border-radius: 15px;
+/* #logoJC{
     position: relative;
-    margin-left: 35%;
-}
-#projet1:hover{
-    border: 15px solid gray;
-}
-#pj1_text{
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-}
-#cahier_des_charges{
-    text-align: center;
-    background-color: #76CCC8;
-    position: absolute;
-    width: 500px;
-    border-radius: 15px;
-    margin-left: 34%;
-    display: none;
-}
-#imgfleche{
-    width: 75px;
-    height: 75px;
-    position: absolute;
-    background-color: #76CCC8;
-    padding: 5px;
-    border-radius: 15px; 
-    margin-left: 48%;
-    transition: all 0.3s;
-    display: none;
-    transform: 0.3 ease;
-    rotate: 0deg;
-}
-#imgfleche:hover{
-    background-color: #818181;
-}
-#imagesppe1{
+    margin-top: 5%;
+    top: 50%;
+    left: 40%;
+} */
+#presentationStage{
     background-color: #76CCC8;
     border-radius: 15px;
-    padding: 7px;
-    height: 250px;
-    width: 500px;
-    position: absolute;
-    /* top: 90px; */
-    left: 785px;
-    z-index: -9;
-    display: none;
-    
-}
-#imagesppe2{
-    background-color: #76CCC8;
-    border-radius: 15px;
-    padding: 7px;
-    height: 250px;
-    width: 500px;
     position: absolute;
     margin-left: 15%;
-    margin-bottom: 50%;
-    z-index: -9;
-    display: none;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding: 15px;
+}
+#titre1{
+    font-size: 25px;
+    font-weight: bold;
+}
+#tableauPourContre{
+    left: 10%;
 }

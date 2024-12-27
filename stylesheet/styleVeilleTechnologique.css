@@ -57,73 +57,53 @@
 #openBtn:hover{
     background-color: #76CCC8;
 }
-#Projetppe{
+
+
+#VeilleTechnologique{
     text-align: center;
     font-size: 3vw;
-}
-#projet1{
-    border: 15px solid #76CCC8;
-    height: 15%;
-    width: 30%;
+    background-color: #D9D9D9;
     border-radius: 15px;
-    position: relative;
-    margin-left: 35%;
-}
-#projet1:hover{
-    border: 15px solid gray;
-}
-#pj1_text{
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-}
-#cahier_des_charges{
-    text-align: center;
-    background-color: #76CCC8;
     position: absolute;
-    width: 500px;
-    border-radius: 15px;
-    margin-left: 34%;
-    display: none;
-}
-#imgfleche{
-    width: 75px;
-    height: 75px;
-    position: absolute;
-    background-color: #76CCC8;
+    margin-left: 32%;
     padding: 5px;
-    border-radius: 15px; 
-    margin-left: 48%;
-    transition: all 0.3s;
-    display: none;
-    transform: 0.3 ease;
-    rotate: 0deg;
 }
-#imgfleche:hover{
-    background-color: #818181;
-}
-#imagesppe1{
+
+#gris {
     background-color: #76CCC8;
     border-radius: 15px;
-    padding: 7px;
-    height: 250px;
-    width: 500px;
+    width: 50%;
+    height: 75vh;
     position: absolute;
-    /* top: 90px; */
-    left: 785px;
-    z-index: -9;
-    display: none;
-    
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 500px;
 }
-#imagesppe2{
-    background-color: #76CCC8;
+#txt1{
+    background-color: #D9D9D9;
     border-radius: 15px;
-    padding: 7px;
-    height: 250px;
-    width: 500px;
+    width: 75%;
+    padding: 25px;
     position: absolute;
-    margin-left: 15%;
-    margin-bottom: 50%;
-    z-index: -9;
-    display: none;
+    margin-left: 15px;
+    margin-top: 15px;
 }
+#txt1:hover{
+    background-color: white;
+    transition: 0.3s;
+}
+#txt2{
+    background-color: #D9D9D9;
+    border-radius: 15px;
+    width: 75%;
+    padding: 25px;
+    position: absolute;
+    margin-left: 115px;
+    margin-top: 275px;
+}
+#txt2:hover{
+    background-color: white;
+    transition: 0.3s;
+}
+

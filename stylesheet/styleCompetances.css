@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    scroll-behavior: smooth;
+}
+.archivo-black-regular {
+    font-family: "Archivo Black", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.bacasime-antique-regular {
+    font-family: "Bacasime Antique", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+/* Sidenav menu */
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -250px;
+    background-color: #e8e8e8;
+    padding-top: 60px;
+    transition: left 0.5s ease;
+    z-index: 501;
+}
+  
+  /* Sidenav menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidenav a:hover,#closeBtn:hover {
+    color: #111;
+}
+#closeBtn{
+    transition: 0.3s;
+}
+.sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#openBtn{
+    z-index: 500;
+    border-radius: 5px;
+}
+#openBtn:hover{
+    background-color: #76CCC8;
+}
+#tableauCompetances{
+    text-align: center;
+    font-size: 3vw;
+}
+.container {
+    display: flex; /* Active flexbox */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    height: 100vh; /* Utilisez toute la hauteur de la fenêtre */
+  }
+  
+img {
+    max-width: 100%; /* S'assurer que l'image reste réactive */
+    max-height: 100%; /* S'assurer que l'image reste dans les limites */
+}
